@@ -1,0 +1,21 @@
+
+.sidebar-container {
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  
+.sidebar-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+  background-color: grey; 
+  border-radius: 1px;
+  height: 2px;
+  
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+  background-color: #333; 
+}
+   
